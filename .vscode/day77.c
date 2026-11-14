@@ -5,10 +5,10 @@ int main() {
     FILE *input, *output;
     char ch;
 
-    input = fopen("input.txt", "r");
+    input = fopen("info.txt", "r");
 
     if (input == NULL) {
-        printf("Error: Could not open input.txt\n");
+        printf("Error: Could not open info.txt\n");
         return 1;
     }
 
